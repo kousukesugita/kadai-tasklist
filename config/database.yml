@@ -51,4 +51,4 @@ production:
   <<: *default
   database: tasklist_production
   username: tasklist
-  password: <%= ENV['TASKLIST_DATABASE_PASSWORD'] %>
+  password: <%= ENV['MESSAGE-BOARD_DATABASE_PASSWORD'] %>
